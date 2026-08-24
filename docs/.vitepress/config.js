@@ -4,6 +4,7 @@ export default defineConfig({
   title: "KernelExtend",
   description: "KernelExtend 项目文档",
   base: "/",
+  theme: "./theme/index.js",
   themeConfig: {
     nav: [
       { text: "首页", link: "/" },
