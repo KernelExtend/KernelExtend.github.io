@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: KernelExtend
-  text: 项目文档中心
-  tagline: 基于 VitePress 构建的开源项目文档
+  name: KernelEX
+  text: Android上的多功能开源终端
+  tagline: 基于 Kotlin 编写的一款适用于执行SH文件/SO文件的开源终端。
   actions:
     - theme: brand
       text: 快速开始
@@ -14,10 +14,14 @@ hero:
       link: https://github.com/KernelExtend
 
 features:
-  - title: 简洁高效
-    details: 使用 Markdown 编写文档，Vite 驱动极速热更新
-  - title: 双主题
-    details: 自动支持深色/浅色模式切换，阅读体验更佳
-  - title: 静态部署
-    details: 构建为纯静态站点，可部署到 GitHub Pages 等平台
+  - title: 便捷小巧
+    details: 安装包仅23M，打开即用。
+  - title: 多种功能
+    details: 自动删除/自动执行/暗色模式/自定义字体/终端颜色/软件主题等功能，一应俱全！
+  - title: 绕过检测
+    details: 使用软件内置终端环境，解决MT终端执行导致的特征。
+  - title: 支持ROOT
+    details: 支持使用你的ROOT权限来执行文件
+  - title: 开源代码
+    details: 基于Apache‑2.0协议开放源代码，支持复制、修改、分发、用于商业闭源产品。
 ---
