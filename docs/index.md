@@ -11,7 +11,7 @@ hero:
       link: /guide/start
     - theme: alt
       text: GitHub
-      link: https://github.com/KernelExtend
+      link: https://github.com/kernelextend/KernelEX
 
 features:
   - title: 便捷小巧
