@@ -6,7 +6,7 @@ hero:
   text: Android ROOT Script & Binary Execution Tool
   tagline: Say goodbye to tedious command-line setups. Run .sh scripts and .so ELF binaries effortlessly in an intuitive, modern interface.
   image:
-    src: https://raw.githubusercontent.com/KernelExtend/KernelEX/main/app/src/main/res/drawable/ic_kernelex.png
+    src: /ic_kernelex.png
     alt: KernelEX
   actions:
     - theme: brand

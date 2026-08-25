@@ -6,7 +6,7 @@ hero:
   text: Android ROOT 脚本与原生程序执行工具
   tagline: 告别繁琐命令行，在直观优雅的现代化界面中轻松运行 .sh 脚本与 .so 二进制程序
   image:
-    src: https://raw.githubusercontent.com/KernelExtend/KernelEX/main/app/src/main/res/drawable/ic_kernelex.png
+    src: /ic_kernelex.png
     alt: KernelEX
   actions:
     - theme: brand

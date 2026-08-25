@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/',
   cleanUrls: true,
   head: [
-    ['link', { rel: 'icon', href: 'https://raw.githubusercontent.com/KernelExtend/KernelEX/main/app/src/main/res/drawable/ic_kernelex.png' }]
+    ['link', { rel: 'icon', href: '/ic_kernelex.png' }]
   ],
 
   locales: {

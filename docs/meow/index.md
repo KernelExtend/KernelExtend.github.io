@@ -6,7 +6,7 @@ hero:
   text: Android ROOT 爪爪执行神器喵！
   tagline: 告别繁琐黑洞命令行，本喵为主人准备了超舒适的现代化爪爪界面，轻松跑起 .sh 脚本与 .so 二进制程序喵~
   image:
-    src: https://raw.githubusercontent.com/KernelExtend/KernelEX/main/app/src/main/res/drawable/ic_kernelex.png
+    src: /ic_kernelex.png
     alt: KernelEX 喵
   actions:
     - theme: brand
