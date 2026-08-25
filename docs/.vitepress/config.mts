@@ -21,6 +21,15 @@ export default defineConfig({
           { text: '功能特性', link: '/guide/features' },
           { text: '常见问题', link: '/guide/faq' },
           {
+            text: '🌐 语言切换',
+            items: [
+              { text: '简体中文 (当前)', link: '/' },
+              { text: '繁體中文', link: '/zh-hant/' },
+              { text: 'English', link: '/en/' },
+              { text: '喵星語 🐾', link: '/meow/' }
+            ]
+          },
+          {
             text: '相关链接',
             items: [
               { text: 'GitHub 仓库', link: 'https://github.com/KernelExtend/KernelEX' },
@@ -45,7 +54,11 @@ export default defineConfig({
         },
         outline: {
           label: '页面导航'
-        }
+        },
+        langMenuLabel: '多语言切换',
+        returnToTopLabel: '返回顶部',
+        sidebarMenuLabel: '菜单',
+        darkModeSwitchLabel: '深浅色模式'
       }
     },
     'zh-hant': {
@@ -59,6 +72,15 @@ export default defineConfig({
           { text: '快速開始', link: '/zh-hant/guide/start' },
           { text: '功能特性', link: '/zh-hant/guide/features' },
           { text: '常見問題', link: '/zh-hant/guide/faq' },
+          {
+            text: '🌐 語言切換',
+            items: [
+              { text: '简体中文', link: '/' },
+              { text: '繁體中文 (目前)', link: '/zh-hant/' },
+              { text: 'English', link: '/en/' },
+              { text: '喵星語 🐾', link: '/meow/' }
+            ]
+          },
           {
             text: '相關連結',
             items: [
@@ -84,7 +106,11 @@ export default defineConfig({
         },
         outline: {
           label: '頁面導航'
-        }
+        },
+        langMenuLabel: '多語言切換',
+        returnToTopLabel: '返回頂部',
+        sidebarMenuLabel: '選單',
+        darkModeSwitchLabel: '深淺色模式'
       }
     },
     en: {
@@ -98,6 +124,15 @@ export default defineConfig({
           { text: 'Quick Start', link: '/en/guide/start' },
           { text: 'Features', link: '/en/guide/features' },
           { text: 'FAQ', link: '/en/guide/faq' },
+          {
+            text: '🌐 Languages',
+            items: [
+              { text: '简体中文', link: '/' },
+              { text: '繁體中文', link: '/zh-hant/' },
+              { text: 'English (Current)', link: '/en/' },
+              { text: '喵星語 🐾', link: '/meow/' }
+            ]
+          },
           {
             text: 'Links',
             items: [
@@ -123,7 +158,11 @@ export default defineConfig({
         },
         outline: {
           label: 'On this page'
-        }
+        },
+        langMenuLabel: 'Change Language',
+        returnToTopLabel: 'Return to top',
+        sidebarMenuLabel: 'Menu',
+        darkModeSwitchLabel: 'Appearance'
       }
     },
     meow: {
@@ -137,6 +176,15 @@ export default defineConfig({
           { text: '快速抓起', link: '/meow/guide/start' },
           { text: '爪爪特性', link: '/meow/guide/features' },
           { text: '喵喵答疑', link: '/meow/guide/faq' },
+          {
+            text: '🌐 猫语切换喵',
+            items: [
+              { text: '简体中文', link: '/' },
+              { text: '繁體中文', link: '/zh-hant/' },
+              { text: 'English', link: '/en/' },
+              { text: '喵星語 🐾 (当前爪印)', link: '/meow/' }
+            ]
+          },
           {
             text: '爪印传送门',
             items: [
@@ -162,7 +210,11 @@ export default defineConfig({
         },
         outline: {
           label: '喵爪雷达'
-        }
+        },
+        langMenuLabel: '猫言猫语选择喵',
+        returnToTopLabel: '飞回爪顶喵',
+        sidebarMenuLabel: '爪爪菜单',
+        darkModeSwitchLabel: '亮黑毛色切换'
       }
     }
   },
