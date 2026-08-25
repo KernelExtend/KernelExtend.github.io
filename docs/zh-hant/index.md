@@ -1,0 +1,35 @@
+﻿---
+layout: home
+
+hero:
+  name: KernelEX
+  text: Android ROOT 腳本與原生程式執行工具
+  tagline: 告別繁瑣命令列，在直觀優雅的現代化介面中輕鬆運行 .sh 腳本與 .so 二進位程式
+  image:
+    src: https://raw.githubusercontent.com/KernelExtend/KernelEX/main/app/src/main/res/drawable/ic_kernelex.png
+    alt: KernelEX
+  actions:
+    - theme: brand
+      text: 快速開始
+      link: /zh-hant/guide/start
+    - theme: alt
+      text: 功能特性
+      link: /zh-hant/guide/features
+    - theme: alt
+      text: GitHub
+      link: https://github.com/KernelExtend/KernelEX
+
+features:
+  - icon: ⚡
+    title: 腳本與原生程式雙模執行
+    details: 原生支援 .sh Shell 腳本與 .so ELF 二進位執行檔，自動注入標準 Linux 環境變數並賦予執行權限。
+  - icon: 🌊
+    title: 16ms 平滑流控與記憶體保護
+    details: 微批次防抖調度保障 60 FPS 絲滑滾動體驗，智慧滑動截斷杜絕海量日誌導致的記憶體溢出（OOM）。
+  - icon: 📁
+    title: 全盤 ROOT 檔案管理
+    details: 直達 /data/adb/KernelEX 核心工作區，支援全盤檔案瀏覽、獨立隔離資料夾儲存與字型檔案即時預覽。
+  - icon: 🎨
+    title: MIUIX 質感與個人化調色盤
+    details: 支援 MIUIX (HyperOS) 與 Material 3 雙主題切換，配備 16 款極客預設配色與 HSV 自訂調色盤。
+---

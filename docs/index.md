@@ -1,27 +1,35 @@
----
+﻿---
 layout: home
 
 hero:
   name: KernelEX
-  text: Android上的多功能开源终端
-  tagline: 基于 Kotlin 编写的一款适用于执行SH文件/SO文件的开源终端。
+  text: Android ROOT 脚本与原生程序执行工具
+  tagline: 告别繁琐命令行，在直观优雅的现代化界面中轻松运行 .sh 脚本与 .so 二进制程序
+  image:
+    src: https://raw.githubusercontent.com/KernelExtend/KernelEX/main/app/src/main/res/drawable/ic_kernelex.png
+    alt: KernelEX
   actions:
     - theme: brand
       text: 快速开始
       link: /guide/start
     - theme: alt
+      text: 功能特性
+      link: /guide/features
+    - theme: alt
       text: GitHub
-      link: https://github.com/kernelextend/KernelEX
+      link: https://github.com/KernelExtend/KernelEX
 
 features:
-  - title: 便捷小巧
-    details: 安装包仅23M，打开即用。
-  - title: 多种功能
-    details: 自动删除/自动执行/暗色模式/自定义字体/终端颜色/软件主题等功能，一应俱全！
-  - title: 绕过检测
-    details: 使用软件内置终端环境，解决MT终端执行导致的特征。
-  - title: 支持ROOT
-    details: 支持使用你的ROOT权限来执行文件
-  - title: 开源代码
-    details: 基于Apache‑2.0协议开放源代码，支持复制、修改、分发、用于商业闭源产品。
+  - icon: ⚡
+    title: 脚本与原生程序双模执行
+    details: 原生支持 .sh Shell 脚本与 .so ELF 二进制可执行文件，自动注入标准 Linux 环境变量并赋予执行权限。
+  - icon: 🌊
+    title: 16ms 平滑流控与内存保护
+    details: 微批次防抖调度保障 60 FPS 丝滑滚动体验，智能滑动截断杜绝海量日志导致的内存溢出（OOM）。
+  - icon: 📁
+    title: 全盘 ROOT 文件管理
+    details: 直达 /data/adb/KernelEX 核心工作区，支持全盘文件浏览、独立隔离文件夹存储与字体文件实时预览。
+  - icon: 🎨
+    title: MIUIX 质感与个性化调色盘
+    details: 支持 MIUIX (HyperOS) 与 Material 3 双主题切换，配备 16 款极客预设配色与 HSV 自定义调色盘。
 ---
